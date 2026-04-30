@@ -11,10 +11,51 @@
         <h2>Password <br> Genrator</h2>
     </div>
 
-    <div>
-        <label></label>
+    <div class="card">
+        <div class="len">
+        <label class="lavel">Password length</label><br>
+        <select id="passwordlen">
+             <option value="8">8</option>
+              <option value="10">10</option>
+               <option value="12">12</option>
+                <option value="16" selected >16</option>
+                 <option value="18">18</option>
+        </select>
+        </div>
+        <div class="include">
+            <p>include</p>
+            <div class="option">
+                <span class="icon">A</span>
+                <label >UpperCase A-Z</label>
+                <input type="checkbox" id="Upper" checked>
+            </div>
+             <div class="option">
+                <span class="icon">a</span>
+                <label >lowerCase a-z</label>
+                <input type="checkbox" id="lower" checked>
+            </div>
+             <div class="option">
+                <span class="icon">9</span>
+                <label >Number 0-9</label>
+                <input type="checkbox" id="number" checked>
+            </div>
+             <div class="option">
+                <span class="icon">#</span>
+                <label >symbols #@</label>
+                <input type="checkbox" id="symbol" checked>
+            </div>
+        </div>
+        <div class="submit">
+            <button>Genrate Password</button>
+
+        </div>
     </div>
-    <div>
+    <div class="output">
+        <p class="outputtitle">Your Password </p>
+        <div>
+            <span id="ps">pass</span>
+            <button>copy</button>
+        </div>
 
     </div>
 
