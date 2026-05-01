@@ -13,3 +13,43 @@ body{
     justify-content: center;
 }
 
+.box-head{
+    padding: 10px 100px;
+    position: relative;
+    border: 3px solid black;
+    background: #d9ff00;
+    font-size: 30px;
+    box-shadow: 8px 8px 0 black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 30px;
+    box-shadow: 6px 6px 0 black;
+    width: 15rem;
+}
+.card .len{
+    font-size: 15px;
+    border-bottom:  2px solid black;
+}
+.card #passwordlen {
+    width: 200px;
+    border:2px solid black;
+    height: 30px;
+}
+
+.divider{
+    width:200px ;
+    border: none;
+    border-top: 0.7px solid black;
+}
+
