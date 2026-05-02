@@ -4,26 +4,29 @@
     box-sizing: border-box;
 }
 body{
-    background:#f5f5f5 ;
+    background:black ;
     padding: 30px;
     display: flex;
     flex-direction: column;
     gap: 40px;
     align-items: center;
     justify-content: center;
+    position: relative;
+    color: white;
 }
 
 .box-head{
     padding: 10px 100px;
     position: relative;
-    border: 3px solid black;
+    border: 3px solid white;
     background: #d9ff00;
     font-size: 30px;
-    box-shadow: 8px 8px 0 black;
+    box-shadow: 8px 8px 0 white;
     font-family: 'Inter', sans-serif;
     font-weight: 900;
     letter-spacing: 1px;
     border-radius: 5px;
+    color: black;
 
 }
 
@@ -33,20 +36,20 @@ body{
     gap: 40px;
     align-items: center;
     justify-content: center;
-    border: 2px solid black;
+    border: 2px solid white;
     padding: 30px;
-    box-shadow: 8px 8px 0 black;
-    width: 20rem;
+    box-shadow: 12px 12px 0 white;
+    width: 24rem;
     border-radius: 6px;
 }
 .card .len{
     font-size: 14px;
-    border-bottom:  2px solid black;
+    border-bottom:  2px solid white;
     
 }
 .card #passwordlen {
     width: 280px;
-    border:3px solid black;
+    border:3px solid white;
     height: 30px;
     border-radius: 4px;
     font-size: 20px;
@@ -67,19 +70,21 @@ body{
     gap: 20px;
 }
 .icon{
-    border: 3px solid black;
+    border: 3px solid white;
     padding: 8px 12px;
     font-weight: bold;
     background: #d9ff00;
     margin: 5px;
     position: relative;
     right: 30px;
+    color: black;
 }
 .text{
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 800;
     position: relative;
     right: 23px;
+    color: gray;
 
 }
 .option input{
@@ -87,7 +92,7 @@ body{
     height: 20px;
     appearance: none;
     cursor: pointer;
-    border: 3px solid black;
+    border: 3px solid white;
     border-radius: 50%;
     position: relative;
     left: 20px;
@@ -98,7 +103,7 @@ body{
 .include p {
     font-size: 18px;
     position: relative;
-    right: 10px;
+    right: 20px;
 }
 .include{
     position: relative;
@@ -110,9 +115,9 @@ body{
     position: relative;
     bottom: 30px;
     /* border-radius: 5px; */
-    border: 3px solid black;
+    border: 3px solid white;
     background-color: #d9ff00;
-    box-shadow: 6px 6px 0 black;
+    box-shadow: 6px 6px 0 white;
     cursor: pointer;
     transition: all 0.1s ease ;
 }
@@ -120,3 +125,117 @@ body{
     transform: translate(6px,6px);
     box-shadow: none;
 }
+.output{
+    width: 280px;
+    border: 2px solid white;
+    padding: 30px;
+    position: relative;
+    bottom: 25px;
+    box-shadow: 8px 8px 0 white;
+    height: 140px;
+}
+.output .outputtitle{
+    position: relative;
+    bottom: 25px;
+    right: 22px;
+    font-size: 18px;
+
+}
+.output #ps{
+    border: 1px solid gray;
+    padding: 10px 15px;
+    font-size: 18px;
+    position: relative;
+    right: 20px;
+    top: 20px;
+
+}
+.output button {
+    width: 40px;
+    height: 50px;
+    position: relative;
+    left: 200px;
+    top: -15px;
+    background-color: #d9ff00;
+    cursor: pointer;
+}
+.dots{
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    width: 100px;
+    color: white;
+    background-color: #d9ff00;
+}
+.dots3{
+    position: absolute;
+    top: 290px;
+    left: 350px;
+    width: 100px;
+     color: white;
+    background-color: #d9ff00;
+}
+.curv{
+    position: absolute;
+    top: 340px;
+    left: 500px;
+    width: 350px;
+     
+    /* height: 10px; */
+}
+.plus{
+     position: absolute;
+    top: 50px;
+    left: 930px;
+    width: 70px;
+     color: white;
+    background-color: #d9ff00;
+}
+.plus3{
+     position: absolute;
+    top: 600px;
+    left: 350px;
+    width: 70px;
+     color: white;
+    background-color: #d9ff00;
+}
+.plus4{
+     position: absolute;
+    top: 700px;
+    left: 390px;
+    width: 70px;
+     color: white;
+    background-color: #d9ff00;
+}
+.plus5{
+     position: absolute;
+    top: 800px;
+    left: 290px;
+    width: 70px;
+     color: white;
+    background-color: #d9ff00;
+}
+.zig{
+     position: absolute;
+    top: 400px;
+    left: 900px;
+    width: 200px;
+     color: white;
+    background-color: #d9ff00;
+}
+.dots2{
+     position: absolute;
+    top: 250px;
+    left: 900px;
+    width: 100px;
+     color: white;
+    background-color: #d9ff00;
+}
+.plus2{
+     position: absolute;
+    top: 500px;
+    left: 350px;
+    width: 70px;
+     color: white;
+    background-color: #d9ff00;
+}  
