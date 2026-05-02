@@ -23,6 +23,7 @@ body{
     font-family: 'Inter', sans-serif;
     font-weight: 900;
     letter-spacing: 1px;
+    border-radius: 5px;
 
 }
 
@@ -34,22 +35,88 @@ body{
     justify-content: center;
     border: 2px solid black;
     padding: 30px;
-    box-shadow: 6px 6px 0 black;
-    width: 15rem;
+    box-shadow: 8px 8px 0 black;
+    width: 20rem;
+    border-radius: 6px;
 }
 .card .len{
-    font-size: 15px;
+    font-size: 14px;
     border-bottom:  2px solid black;
+    
 }
 .card #passwordlen {
-    width: 200px;
-    border:2px solid black;
+    width: 280px;
+    border:3px solid black;
     height: 30px;
+    border-radius: 4px;
+    font-size: 20px;
 }
 
-.divider{
-    width:200px ;
-    border: none;
-    border-top: 0.7px solid black;
-}
 
+
+.option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.icon{
+    border: 3px solid black;
+    padding: 8px 12px;
+    font-weight: bold;
+    background: #d9ff00;
+    margin: 5px;
+    position: relative;
+    right: 30px;
+}
+.text{
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    right: 23px;
+
+}
+.option input{
+    width: 20px;
+    height: 20px;
+    appearance: none;
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 50%;
+    position: relative;
+    left: 20px;
+}
+.option input:checked{
+    background-color: #d9ff00;
+}
+.include p {
+    font-size: 18px;
+    position: relative;
+    right: 10px;
+}
+.include{
+    position: relative;
+    bottom: 20px;
+}
+.submit button{
+    padding: 12px 20px;
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+    /* border-radius: 5px; */
+    border: 3px solid black;
+    background-color: #d9ff00;
+    box-shadow: 6px 6px 0 black;
+    cursor: pointer;
+    transition: all 0.1s ease ;
+}
+.submit button:active{
+    transform: translate(6px,6px);
+    box-shadow: none;
+}
