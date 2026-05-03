@@ -1,44 +1,63 @@
 # Password Generator
 
-A simple password generator made using HTML CSS and JavaScript
+A clean and simple password generator built using HTML, CSS, and JavaScript.  
+It allows users to generate secure random passwords based on selected criteria like length and character types.
+
+
+
+## Preview
+
+<img width="1516" height="1362" alt="image" src="https://github.com/user-attachments/assets/8d792336-08d0-4364-9696-d37391aee173" />
+
+
+
+
+## Description
+
+This project is a beginner-friendly web application that focuses on both functionality and UI design.  
+Users can customize their password by selecting options such as including uppercase letters, lowercase letters, numbers, and symbols.
+
+The goal of this project was to understand DOM manipulation, event handling, and building interactive UI components while also experimenting with a neo-brutalism design style.
+
+
 
 ## Features
 
-- Generate random password  
-- Choose password length  
-- Include uppercase lowercase numbers symbols  
-- Copy password with one click  
-
-## How to Use
-
+- Generate random passwords  
 - Select password length  
-- Choose options you want  
-- Click generate password  
-- Click copy to copy it  
+- Toggle:
+  - Uppercase letters  
+  - Lowercase letters  
+  - Numbers  
+  - Symbols  
+- Copy password to clipboard  
+- Visual feedback on copy action  
 
-## Concepts Used
 
-- DOM manipulation  
-- Event listeners  
-- Checkbox checked property  
-- Random number generation  
-- String operations  
-- Clipboard API  
 
-## Learnings
+## Technologies Used
 
-- value is used for select input  
-- checked is used for checkbox  
-- innerHTML is needed when using svg or image  
-- generate password inside button click  
+- HTML  
+- CSS  
+- JavaScript  
 
-## Run Project
 
-Open index.html in browser  
+## How It Works
 
-## Future Improvements
+1. User selects desired password length  
+2. User chooses character types  
+3. On clicking generate button:
+   - A pool of allowed characters is created  
+   - Random characters are selected based on length  
+4. Password is displayed on screen  
+5. Copy button copies password using Clipboard API  
 
-- Add password strength meter  
-- Improve UI  
-- Make responsive  
-- Add animations  
+
+
+## Inspiration / Reason for Building
+
+I built this project to:
+
+- Practice JavaScript fundamentals  
+- Learn how to work with DOM elements and events  
+## made by Ravi 
